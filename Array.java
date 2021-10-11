@@ -58,7 +58,7 @@ public class Array{public static void main(String[] args){
             String exData = inex.nextLine();
             System.out.println("Input Data Pengganti: ");
             String extData = inex.nextLine();
-            System.out.println(exData  +  " Dihapus dandiganti dengan " + extData);
+            System.out.println(exData  +  " Dihapus dan diganti dengan " + extData);
             list.remove(exData);
             list.add(extData);
             // list[exData] = extData;
