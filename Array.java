@@ -54,7 +54,7 @@ public class Array{public static void main(String[] args){
         case 3:
             System.out.println("Kamu memasuki menu Tambah Data");
             Scanner inex = new Scanner(System.in);
-            System.out.println("Input Index atau Nomor Data Yang Akan Di Ganti: ");
+            System.out.println("Input Data Yang Akan Di Ganti: ");
             String exData = inex.nextLine();
             System.out.println("Input Data Pengganti: ");
             String extData = inex.nextLine();
